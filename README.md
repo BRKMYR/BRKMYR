@@ -2,7 +2,7 @@
 
 ### Product Strategist, AI Builder: Bridging Deep Tech, AI and Product Commercialization
 
-9+ years in product management. I explore the latest market and technology trends and turn them into product prototypes. I build products at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
+9+ years in product management. On this GitHub I explore the latest market and technology trends and turn them into AI project prototypes: everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
 
 Several of the projects below are in **stealth mode**: they live in private repositories until they are ready to ship. Public repos are linked where available.
 
