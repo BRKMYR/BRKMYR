@@ -1,7 +1,7 @@
 # Product Manager
 ## Spatial Intelligence & Autonomous Systems, Focus on Trustworthy Physical AI
 
-### Product Strategist, AI Builder: Bridging Future Business with Technical Architecture
+### Product Strategist, AI Builder: Bridging Deep Tech, AI and Product Commercialization
 
 9+ years in product management. I explore the latest market and technology trends and turn them into product prototypes. I build products at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
 
@@ -24,7 +24,7 @@ Real-time safety monitoring for autonomous fleets with teleoperation trigger det
 
 ---
 
-## 2026 Roadmap: AI Builder Projects
+## 2026 Roadmap: AI Projects
 
 Ordered by current priority. Stealth projects are developed in private repositories.
 
@@ -35,7 +35,7 @@ Ordered by current priority. Stealth projects are developed in private repositor
 | AV Safety Benchmark | Active (stealth) | AI safety evaluation framework for autonomous driving: adversarial scenario generation, ODD boundary testing, and safety-critical metrics. |
 | SAR & EO AI Workflows | Active (stealth) | End-to-end SAR and Earth Observation pipelines: satellite data acquisition via the UP42 Python SDK, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. |
 | Adversarial Robustness Toolkit | Public | PyTorch-based adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
-| Deep RL Foundations | In progress (stealth) | Policy gradients, model based RL, and robot learning (Stanford XCS224R coursework plus HuggingFace Deep RL implementations). |
+| Deep RL Foundations | Completed | Policy gradients, model based RL, and robot learning. Completed Stanford XCS224R Deep Reinforcement Learning coursework plus HuggingFace Deep RL implementations. |
 | Synthetic Data Generation | Stealth | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
 | Multi-Agent RL Europe | Stealth | Multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO with shielded Deep RL. |
 | Deep RL for Robotics | Stealth | Deep RL for legged robot locomotion and manipulation: terrain adaptation, contact rich tasks, and sim to real transfer in MuJoCo and Isaac Gym. |
