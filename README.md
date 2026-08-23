@@ -1,5 +1,5 @@
-# Product Manager
-## Spatial Intelligence & Autonomous Systems, Focus on Trustworthy Physical AI
+# NKLS J. BRKMYR
+## Product Manager · Spatial Intelligence & Autonomous Systems · Trustworthy Physical AI
 
 ### Product Strategist, AI Builder: Bridging Deep Tech, AI and Product Commercialization
 
@@ -14,13 +14,16 @@ My background in Physical AI goes back to 2016, when I worked with the **iCub hu
 ## Focus Areas
 
 ### Spatial Intelligence
-SAR and Earth Observation AI pipelines for geospatial intelligence. Synthetic data generation using NVIDIA Omniverse Replicator and world foundation models for closing the sim to real gap.
-
-### Autonomy
-Deep RL foundations, multi-agent reinforcement learning, and coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO (currently in stealth).
+SAR and Earth Observation AI pipelines for geospatial intelligence: satellite data acquisition, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. Active, in stealth.
 
 ### Operational Safety
-Real-time safety monitoring for autonomous fleets with teleoperation trigger detection. Adversarial scenario generation, safety benchmarking, and applying **UL 4600** and **SOTIF** (ISO 21448) standards to autonomous systems. Adversarial robustness tooling is public: [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
+Real-time safety monitoring for autonomous fleets with teleoperation trigger detection. Adversarial scenario generation, ODD boundary testing, and applying **UL 4600** and **SOTIF** (ISO 21448) standards to autonomous systems. Adversarial robustness tooling is public: [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
+
+### World Models & Synthetic Data
+World foundation model evaluation for closing the sim to real gap: video prediction benchmarks, transfer metrics, and domain randomized synthetic data pipelines using NVIDIA Omniverse Replicator. Active, in stealth.
+
+### Autonomy
+Deep RL foundations (Stanford XCS224R Deep Reinforcement Learning, completed), multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO, and deep RL for legged locomotion and manipulation. In stealth.
 
 ---
 
