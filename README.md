@@ -1,5 +1,4 @@
-# Product Manager
-## Spatial Intelligence & Autonomous Systems, Focus on Trustworthy Physical AI
+# Product Manager · Spatial Intelligence & Autonomous Systems · Trustworthy Physical AI
 
 ### Product Strategist, AI Builder: Bridging Deep Tech, AI and Product Commercialization
 
