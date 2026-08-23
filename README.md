@@ -1,9 +1,11 @@
-# Lead Product Manager
+# Product Manager
 ## Spatial Intelligence & Autonomous Systems, Focus on Trustworthy Physical AI
 
-### Product Strategist, AI Builder - Bridging Future Business with Technical Architecture
+### Product Strategist, AI Builder: Bridging Future Business with Technical Architecture
 
-9+ years in product management. I build products at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
+9+ years in product management. I explore the latest market and technology trends and turn them into product prototypes. I build products at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
+
+Several of the projects below are in **stealth mode**: they live in private repositories until they are ready to ship. Public repos are linked where available.
 
 My background in Physical AI goes back to 2016, when I worked with the **iCub humanoid robot** on visual recognition, semantic reasoning, and visual servoing systems. That early robotics experience shapes how I approach autonomous product development today.
 
@@ -12,30 +14,32 @@ My background in Physical AI goes back to 2016, when I worked with the **iCub hu
 ## Focus Areas
 
 ### Spatial Intelligence
-SAR and Earth Observation AI pipelines for geospatial intelligence. Synthetic data generation using NVIDIA Omniverse Replicator and world foundation models for closing the sim to real gap. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
+SAR and Earth Observation AI pipelines for geospatial intelligence. Synthetic data generation using NVIDIA Omniverse Replicator and world foundation models for closing the sim to real gap.
 
 ### Autonomy
-Deep RL foundations, multi-agent reinforcement learning, and coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO. See [`multi-shield-europe`](https://github.com/BRKMYR/multi-shield-europe).
+Deep RL foundations, multi-agent reinforcement learning, and coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO (currently in stealth).
 
 ### Operational Safety
-Real-time safety monitoring for autonomous fleets with teleoperation trigger detection. Adversarial scenario generation, safety benchmarking, and applying **UL 4600** and **SOTIF** (ISO 21448) standards to autonomous systems.
+Real-time safety monitoring for autonomous fleets with teleoperation trigger detection. Adversarial scenario generation, safety benchmarking, and applying **UL 4600** and **SOTIF** (ISO 21448) standards to autonomous systems. Adversarial robustness tooling is public: [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
 
 ---
 
-## 2026 Roadmap — AI Builder Projects
+## 2026 Roadmap: AI Builder Projects
 
-Most of these projects are currently in stealth mode.
+Ordered by current priority. Stealth projects are developed in private repositories.
 
-| Project | Focus |
-| :--- | :--- |
-| Operational Safety Monitor | Real-time safety monitoring dashboard for autonomous fleets — teleoperation trigger detection built on Waymax and Waymo Open Motion Dataset. |
-| SAR & EO AI Workflows | Synthetic Aperture Radar and Earth Observation AI pipelines — satellite data acquisition, processing, and analysis using UP42 Python SDK for geospatial intelligence workflows. |
-| Deep RL Foundations | Policy gradients, model based RL, robot learning |
-| Multi-Agent RL — Europe | Multi-agent reinforcement learning and coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO. See [`multi-shield-europe`](https://github.com/BRKMYR/multi-shield-europe). |
-| AV Safety Benchmark | Adversarial scenario generation and safety metrics |
-| Synthetic Data Generation | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
-| World Model Benchmark | World foundation model evaluation and sim to real gap |
-| Deep RL for Robotics | Applying deep RL to robotic manipulation and locomotion — sim to real transfer, contact rich tasks, and embodied policy deployment. |
+| Project | Status | Focus |
+| :--- | :--- | :--- |
+| Operational Safety Monitor | Active (stealth) | Real-time safety monitoring dashboard for autonomous fleets. Teleoperation trigger detection built on Waymax and the Waymo Open Motion Dataset. |
+| World Model Benchmark | Active (stealth) | World foundation model evaluation: synthetic data generation, sim to real transfer metrics, and video prediction benchmarks. |
+| AV Safety Benchmark | Active (stealth) | AI safety evaluation framework for autonomous driving: adversarial scenario generation, ODD boundary testing, and safety-critical metrics. |
+| SAR & EO AI Workflows | Active (stealth) | End-to-end SAR and Earth Observation pipelines: satellite data acquisition via the UP42 Python SDK, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. |
+| Adversarial Robustness Toolkit | Public | PyTorch-based adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
+| Deep RL Foundations | In progress (stealth) | Policy gradients, model based RL, and robot learning (Stanford XCS224R coursework plus HuggingFace Deep RL implementations). |
+| Synthetic Data Generation | Stealth | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
+| Multi-Agent RL Europe | Stealth | Multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO with shielded Deep RL. |
+| Deep RL for Robotics | Stealth | Deep RL for legged robot locomotion and manipulation: terrain adaptation, contact rich tasks, and sim to real transfer in MuJoCo and Isaac Gym. |
+
 ---
 
 ## How I Work
@@ -54,8 +58,9 @@ I run an AI augmented **PM Operating System** across three environments:
 
 | Layer | Technologies |
 | :--- | :--- |
-| **ML / RL** | PyTorch, Stable Baselines3, PettingZoo, Ray RLlib |
-| **Robotics** | ROS2, Gazebo, YARP, MuJoCo |
-| **Safety** | UL 4600, SOTIF (ISO 21448) |
-| **Synthetic Data** | NVIDIA Omniverse Replicator, Waymax, Procedural Generation |
-| **SAR / EO** | UP42 Python SDK, Rasterio, GDAL, SentinelHub |
+| **ML / RL** | PyTorch, JAX, Stable Baselines3, PettingZoo, Ray RLlib |
+| **Robotics & Simulation** | ROS2, Gazebo, YARP, MuJoCo, Isaac Gym |
+| **Safety** | UL 4600, SOTIF (ISO 21448), Waymax, adversarial robustness (PyTorch) |
+| **Synthetic Data & World Models** | NVIDIA Omniverse Replicator, Waymo Open Motion Dataset, procedural generation |
+| **SAR / EO** | UP42 Python SDK, Rasterio, GDAL, SentinelHub, vision-language models |
+| **AI Tooling** | Claude Code, M365 Copilot, Amazon Kiro |
