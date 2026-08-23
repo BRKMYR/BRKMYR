@@ -26,19 +26,19 @@ Real-time safety monitoring for autonomous fleets with teleoperation trigger det
 
 ## 2026 Roadmap: AI Projects
 
-Ordered by current priority. Stealth projects are developed in private repositories.
+Ordered by current priority. Most projects are in stealth mode and developed in private repositories; public repos are linked.
 
-| Project | Status | Focus |
-| :--- | :--- | :--- |
-| Operational Safety Monitor | Active (stealth) | Real-time safety monitoring dashboard for autonomous fleets. Teleoperation trigger detection built on Waymax and the Waymo Open Motion Dataset. |
-| World Model Benchmark | Active (stealth) | World foundation model evaluation: synthetic data generation, sim to real transfer metrics, and video prediction benchmarks. |
-| AV Safety Benchmark | Active (stealth) | AI safety evaluation framework for autonomous driving: adversarial scenario generation, ODD boundary testing, and safety-critical metrics. |
-| SAR & EO AI Workflows | Active (stealth) | End-to-end SAR and Earth Observation pipelines: satellite data acquisition via the UP42 Python SDK, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. |
-| Adversarial Robustness Toolkit | Public | PyTorch-based adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
-| Deep RL Foundations | Completed | Policy gradients, model based RL, and robot learning. Completed Stanford XCS224R Deep Reinforcement Learning coursework plus HuggingFace Deep RL implementations. |
-| Synthetic Data Generation | Stealth | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
-| Multi-Agent RL Europe | Stealth | Multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO with shielded Deep RL. |
-| Deep RL for Robotics | Stealth | Deep RL for legged robot locomotion and manipulation: terrain adaptation, contact rich tasks, and sim to real transfer in MuJoCo and Isaac Gym. |
+| Project | Status | Repo | Focus |
+| :--- | :--- | :--- | :--- |
+| Operational Safety Monitor | Active | Private | Real-time safety monitoring dashboard for autonomous fleets. Teleoperation trigger detection built on Waymax and the Waymo Open Motion Dataset. |
+| World Model Benchmark | Active | Private | World foundation model evaluation: synthetic data generation, sim to real transfer metrics, and video prediction benchmarks. |
+| AV Safety Benchmark | Active | Private | AI safety evaluation framework for autonomous driving: adversarial scenario generation, ODD boundary testing, and safety-critical metrics. |
+| SAR & EO AI Workflows | Active | Private | End-to-end SAR and Earth Observation pipelines: satellite data acquisition via the UP42 Python SDK, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. |
+| Adversarial Robustness Toolkit | Active | Public | PyTorch-based adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
+| Deep RL Foundations | Completed | Private | Policy gradients, model based RL, and robot learning. Completed Stanford XCS224R Deep Reinforcement Learning coursework plus HuggingFace Deep RL implementations. |
+| Synthetic Data Generation | In progress | Private | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
+| Multi-Agent RL Europe | In progress | Private | Multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO with shielded Deep RL. |
+| Deep RL for Robotics | In progress | Private | Deep RL for legged robot locomotion and manipulation: terrain adaptation, contact rich tasks, and sim to real transfer in MuJoCo and Isaac Gym. |
 
 ---
 
