@@ -1,46 +1,47 @@
-# Product Manager · Spatial Intelligence & Autonomous Systems · Trustworthy Physical AI
+# Product Manager · Spatial Intelligence · Safe Autonomy · Physical AI
 
-### Product Strategist, AI Builder: Bridging Deep Tech, AI and Product Commercialization
+### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, Physical and Industrial AI.
 
-9+ years in product management. On this GitHub I explore the latest market and technology trends and turn them into AI project prototypes: everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, ensuring agents perceive, reason, and act within strictly defined **Operational Design Domains (ODD)** in the real world.
+Close to a decade in product management. On this GitHub I explore the latest market and technology trends and turn them into AI project prototypes: everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, with a focus on **Operational Design Domain (ODD) management**: deciding where an automated driving function is cleared to operate and where it must hand back, by road, region and condition, so that agents perceive, reason, and act only where they are cleared to.
 
-Several of the projects below are in **stealth mode**: they live in private repositories until they are ready to ship. Public repos are linked where available.
+Data engines, evals, and RL environments: the data loop behind AD/ADAS, dual use Earth Observation, and industrial automation. Several of the projects below are in **stealth mode**: they live in private repositories until they are ready to ship. Public repos are linked where available.
 
-My background in Physical AI goes back to 2016, when I worked with the **iCub humanoid robot** on visual recognition, semantic reasoning, and visual servoing systems. That early robotics experience shapes how I approach autonomous product development today.
+My background in Physical AI goes back to 2016, when I worked with the **iCub humanoid robot** at TU Munich on visual recognition, semantic reasoning, and visual servoing, combining CNNs with structured knowledge so a robot could recognize objects it had never seen. That early work on grounding perception in reasoning shapes how I approach autonomous product development today. See [`icub-visual-recognition`](https://github.com/BRKMYR/icub-visual-recognition), [`icub-semantic-reasoning`](https://github.com/BRKMYR/icub-semantic-reasoning), [`icub-visual-servoing`](https://github.com/BRKMYR/icub-visual-servoing).
 
 ---
 
 ## Focus Areas
 
-### Spatial Intelligence
-SAR and Earth Observation AI pipelines for geospatial intelligence: satellite data acquisition, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. Active, in stealth.
+### Safe Autonomy: ODD Management, Validation and Evals
+ODD management as a clearance question: where an automated driving function may operate, where it must hand back, and how that boundary is maintained in the map rather than discovered in test. Alongside it, safety evaluation for autonomous driving with adversarial scenarios and safety critical metrics on a vendor neutral scorecard, applying **UL 4600** and **SOTIF** (ISO 21448). Real time safety monitoring for robotaxi fleets with teleoperation trigger detection on Waymax and the Waymo Open Motion Dataset. Adversarial robustness tooling is public: [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
 
-### Operational Safety
-Real-time safety monitoring for autonomous fleets with teleoperation trigger detection. Adversarial scenario generation, ODD boundary testing, and applying **UL 4600** and **SOTIF** (ISO 21448) standards to autonomous systems. Adversarial robustness tooling is public: [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield).
+### Spatial Intelligence: SAR and Earth Observation
+SAR and EO AI pipelines from satellite tasking to intelligence product: Sentinel-1 acquisition, change and ship detection, damage assessment, and a vision language analyst console that refuses questions the imaging physics cannot answer. In stealth.
 
-### World Models & Synthetic Data
-World foundation model evaluation for closing the sim to real gap: video prediction benchmarks, transfer metrics, and domain randomized synthetic data pipelines using NVIDIA Omniverse Replicator. Active, in stealth.
+### World Models and Synthetic Data
+World foundation model evaluation for the sim to real gap: six metrics, six failure modes, closed form baselines so the harness itself can be validated. Domain randomized synthetic data for long tail edge cases. In stealth.
 
-### Autonomy
-Deep RL foundations (Stanford XCS224R Deep Reinforcement Learning, completed), multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO, and deep RL for legged locomotion and manipulation. In stealth.
+### Agentic AI and Human Machine Teaming
+Multi agent reinforcement learning for manned unmanned teaming with enforced safety gates, rules of engagement, human weapons authorization, and AI decision logs that record every call the system made and why. Deep RL foundations completed (Stanford XCS224R). In stealth.
 
 ---
 
-## 2026 Roadmap: AI Projects
+## 2026 AI Projects
 
-Ordered by current priority. Most projects are in stealth mode and developed in private repositories; public repos are linked.
+Ordered by current priority. Most projects are developed in private repositories; public repos are linked.
 
 | Project | Status | Repo | Focus |
 | :--- | :--- | :--- | :--- |
-| Operational Safety Monitor | Active | Private | Real-time safety monitoring dashboard for autonomous fleets. Teleoperation trigger detection built on Waymax and the Waymo Open Motion Dataset. |
-| World Model Benchmark | Active | Private | World foundation model evaluation: synthetic data generation, sim to real transfer metrics, and video prediction benchmarks. |
-| AV Safety Benchmark | Active | Private | AI safety evaluation framework for autonomous driving: adversarial scenario generation, ODD boundary testing, and safety-critical metrics. |
-| SAR & EO AI Workflows | Active | Private | End-to-end SAR and Earth Observation pipelines: satellite data acquisition via the UP42 Python SDK, change detection, ship detection, damage assessment, and vision-language models for SAR imagery. |
-| Adversarial Robustness Toolkit | Active | Public | PyTorch-based adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
-| Deep RL Foundations | Completed | Private | Policy gradients, model based RL, and robot learning. Completed Stanford XCS224R Deep Reinforcement Learning coursework plus HuggingFace Deep RL implementations. |
-| Synthetic Data Generation | In progress | Private | Domain randomized synthetic data pipelines for long tail edge case coverage using NVIDIA Omniverse Replicator and procedural scenario generation. |
-| Multi-Agent RL Europe | In progress | Private | Multi-agent reinforcement learning for coordinated autonomous operations using PettingZoo, Ray RLlib, and MAPPO with shielded Deep RL. |
-| Deep RL for Robotics | In progress | Private | Deep RL for legged robot locomotion and manipulation: terrain adaptation, contact rich tasks, and sim to real transfer in MuJoCo and Isaac Gym. |
+| Waymax Safety Monitor | Shipped | Private | Risk ranked fleet dashboard for robotaxi teleoperators: three scenarios, seven trigger kinds, rewindable timeline on the Waymo Open Motion Dataset. |
+| AV Safety Benchmark | Shipped | Private | Vendor neutral safety scorecard: 60 scenarios, four families, one composite score; 180 runs against three baselines. |
+| World Model Benchmark | v0.2 | Private | World foundation model evaluation: six metrics, six failure modes, closed form baselines, toy suite leaderboard. |
+| INTENT Operator Console | Shipped | Private | Manned unmanned teaming C2 console over a PettingZoo MARL testbed: tasking, engagement authorization, AI decision logs. |
+| SAR Intelligence Pipeline | Shipped | Private | Five notebooks from Sentinel-1 tiles to a shareable GeoJSON intelligence product, free data only. |
+| SAR VLM | Shipped | Private | Natural language analyst console for radar scenes: counts with a confidence trace, refusals where physics forbids an answer. |
+| Adversarial Robustness Toolkit | Active | Public | PyTorch adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
+| Deep RL Foundations | Completed | Private | Policy gradients, model based RL, robot learning. Stanford XCS224R Deep Reinforcement Learning plus HuggingFace Deep RL implementations. |
+| Synthetic Data Generation | In progress | Private | Domain randomized pipelines for long tail coverage with NVIDIA Omniverse Replicator and procedural scenario generation. |
+| Deep RL for Robotics | In progress | Private | Legged locomotion and manipulation: terrain adaptation, contact rich tasks, sim to real in MuJoCo and Isaac Gym. |
 
 ---
 
@@ -64,5 +65,11 @@ I run an AI augmented **PM Operating System** across three environments:
 | **Robotics & Simulation** | ROS2, Gazebo, YARP, MuJoCo, Isaac Gym |
 | **Safety** | UL 4600, SOTIF (ISO 21448), Waymax, adversarial robustness (PyTorch) |
 | **Synthetic Data & World Models** | NVIDIA Omniverse Replicator, Waymo Open Motion Dataset, procedural generation |
-| **SAR / EO** | UP42 Python SDK, Rasterio, GDAL, SentinelHub, vision-language models |
+| **SAR / EO** | UP42 Python SDK, Rasterio, GDAL, SentinelHub, vision language models |
 | **AI Tooling** | Claude Code, M365 Copilot, Amazon Kiro |
+
+---
+
+## What I Believe
+
+AI is moving into the physical world. Models will commoditize; the platforms that make them safe to deploy will not. That is where to build and where to bet.
