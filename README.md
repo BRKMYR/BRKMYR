@@ -38,7 +38,7 @@ Ordered by current priority. Most projects are developed in private repositories
 | INTENT Operator Console | Shipped | Private | Manned unmanned teaming C2 console over a PettingZoo MARL testbed: tasking, engagement authorization, AI decision logs. |
 | SAR Intelligence Pipeline | Shipped | Private | Five notebooks from Sentinel-1 tiles to a shareable GeoJSON intelligence product, free data only. |
 | SAR VLM | Shipped | Private | Natural language analyst console for radar scenes: counts with a confidence trace, refusals where physics forbids an answer. |
-| Adversarial Robustness Toolkit | Active | Public | PyTorch adversarial robustness toolkit for neural network defense. See [`pytorch-shield`](https://github.com/BRKMYR/pytorch-shield). |
+| Adversarial Robustness Toolkit | Active | Public | PyTorch adversarial robustness toolkit for neural network defense. |
 | Deep RL Foundations | Completed | Private | Policy gradients, model based RL, robot learning. Stanford XCS224R Deep Reinforcement Learning plus HuggingFace Deep RL implementations. |
 | Synthetic Data Generation | In progress | Private | Domain randomized pipelines for long tail coverage with NVIDIA Omniverse Replicator and procedural scenario generation. |
 | Deep RL for Robotics | In progress | Private | Legged locomotion and manipulation: terrain adaptation, contact rich tasks, sim to real in MuJoCo and Isaac Gym. |
