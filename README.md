@@ -1,6 +1,6 @@
-# Product Manager · Spatial Intelligence · Safe Autonomy · Physical AI
+# Product Manager · Spatial Intelligence · Safe Autonomy · AI Assurance
 
-### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, Physical and Industrial AI.
+### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, spatial data and analytics, and AI assurance.
 
 Close to a decade in product management. On this GitHub I explore the latest market and technology trends and turn them into AI project prototypes: everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, with a focus on **Operational Design Domain (ODD) management**: deciding where an automated driving function is cleared to operate and where it must hand back, by road, region and condition, so that agents perceive, reason, and act only where they are cleared to.
 
