@@ -1,6 +1,6 @@
-# Product Manager · Spatial Intelligence · Safe Autonomy · Physical AI
+# Product · Spatial Intelligence · Safe Autonomy · AI Assurance
 
-### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, Physical and Industrial AI.
+### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, spatial data and analytics, and assurance.
 
 Close to a decade in product management. On this GitHub I explore the latest market and technology trends and turn them into AI project prototypes: everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, with a focus on **Operational Design Domain (ODD) management**: deciding where an automated driving function is cleared to operate and where it must hand back, by road, region and condition, so that agents perceive, reason, and act only where they are cleared to.
 
@@ -35,7 +35,7 @@ Ordered by current priority. Private repos are presented as case studies in the 
 
 | Project | Status | Repo | Focus |
 | :--- | :--- | :--- | :--- |
-| Assurance Gate | Shipped | Private | Evaluation results in, release decision out. Gates are hashed and published before the run, every rate is reported as a Clopper Pearson bound, and every claim links to the run behind it. Live dashboard, NO GO on demo data (3 of 9 gates), two tracks: driving scenario runs and LLM safety evals. |
+| Assurance Gate | Live | [Space](https://huggingface.co/spaces/N20X/assurance-gate) and [GitHub](https://github.com/BRKMYR/assurance-gate) | Evaluation results in, release decision out. Gates are hashed and published before the run, every rate is reported as a Clopper Pearson bound, and every claim links to the run behind it. Live dashboard, NO GO on demo data (3 of 9 gates), two tracks: driving scenario runs and LLM safety evals. |
 | Waymax Safety Monitor | Shipped | Private | Robotaxi teleoperators cannot watch twenty screens. Risk ranked fleet dashboard that surfaces the specific reason a car needs attention and lets the operator rewind: three scenarios, seven trigger kinds, on the Waymo Open Motion Dataset. |
 | INTENT Operator Console | Shipped | Private | One human, several unmanned wingmen, time pressure. Manned unmanned teaming C2 console over a PettingZoo MARL testbed: tasking, engagement authorization, and AI decision logs that record every call the system made and why. |
 | AV Safety Benchmark | Shipped | Private | Every AV company claims its planner is safer; none of the claims are comparable. Vendor neutral safety scorecard: 60 scenarios, four families, one composite score; 180 runs against three baselines. |
