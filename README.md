@@ -12,8 +12,8 @@ My background in Physical AI goes back to 2016, when I worked with the **iCub hu
 
 ## Focus Areas
 
-### Safe Autonomy: ODD Management, Validation and Evals
-ODD management as a clearance question: where an automated driving function may operate, where it must hand back, and how that boundary is maintained in the map rather than discovered in test. Alongside it, safety evaluation for autonomous driving with adversarial scenarios and safety critical metrics on a vendor neutral scorecard, applying **UL 4600** and **SOTIF** (ISO 21448). Real time safety monitoring for robotaxi fleets with teleoperation trigger detection on Waymax and the Waymo Open Motion Dataset.
+### Safe Autonomy: Assurance, Evals and ODD
+ODD management as a clearance question: where an automated driving function may operate, where it must hand back, and how that boundary is maintained in the map rather than discovered in test. Alongside it, safety evaluation for autonomous driving with adversarial scenarios and safety critical metrics on a vendor neutral scorecard, applying **UL 4600** and **SOTIF** (ISO 21448). Real time safety monitoring for robotaxi fleets with teleoperation trigger detection on Waymax and the Waymo Open Motion Dataset. Above the benchmarks sits the decision layer, where thresholds exist before the data and every claim carries its evidence. Live: [Assurance Gate](https://huggingface.co/spaces/N20X/assurance-gate).
 
 ### Data Engines: Auto-Labeling Economics and Sensor-Fusion Quality
 Models are cheap to call and expensive to trust. The decision that sets the cost and quality of a perception program is where you draw the line between what a machine labels alone and what a human confirms. [`label-quality-engine`](https://github.com/BRKMYR/label-quality-engine) makes that line explicit for 3D: a camera-to-LiDAR fusion labeler and a LiDAR-geometry labeler look at the same frame, agreement is auto-accepted, disagreement is routed, and the engine reports escaped error, per-sensor error attribution and total expected cost as one frontier, so the threshold becomes a decision with a price tag instead of a default. Built on PandaSet, Grounding DINO, OWLv2, CVAT and plotly. Public repo, live 3D viewer, and the decision memo a PM would actually write.
@@ -25,7 +25,7 @@ SAR and EO AI pipelines from satellite tasking to intelligence product: Sentinel
 World foundation model evaluation for the sim to real gap: six metrics, six failure modes, closed form baselines so the harness itself can be validated. Private repo, case study in the portfolio. Next up: domain randomized synthetic data for long tail edge cases with NVIDIA Omniverse Replicator.
 
 ### Agentic AI and Human Machine Teaming
-Multi agent reinforcement learning for manned unmanned teaming with enforced safety gates, rules of engagement, human weapons authorization, and AI decision logs that record every call the system made and why. Private repo, case study in the portfolio. Deep RL foundations completed (Stanford XCS224R).
+Multi agent reinforcement learning for manned unmanned teaming with enforced safety gates, rules of engagement, engagement authorization, and AI decision logs that record every call the system made and why. Private repo, case study in the portfolio. Deep RL foundations completed (Stanford XCS224R).
 
 ---
 
