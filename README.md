@@ -1,4 +1,4 @@
-# Spatial Intelligence · Safe Autonomy · AI Assurance
+# Product · Spatial Intelligence · Safe Autonomy · AI Assurance
 
 ### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, spatial data and analytics, and AI assurance.
 
