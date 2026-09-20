@@ -43,7 +43,6 @@ Ordered by current priority. Private repos are presented as case studies in the 
 | World Model Benchmark | v0.2 | Private | "Looks realistic" and "is a good world model" are different things. World foundation model evaluation: six metrics, six failure modes, closed form baselines so the harness itself can be validated, toy suite leaderboard. |
 | SAR Intelligence Pipeline | Shipped | Private | Radar works at night and through cloud, but the tooling is scattered across research code. Five notebooks from Sentinel-1 tiles to a shareable GeoJSON intelligence product, free data only. |
 | SAR VLM | Shipped | Private | Natural language analyst console for radar scenes: counts with a confidence trace, refusals where the imaging physics forbids an answer, so no hallucinated counts. Live console mock on real API responses. |
-| Adversarial Robustness Toolkit | Active | Public | PyTorch adversarial robustness toolkit for neural network defense. |
 | Synthetic Data Generation | Planned | Future | Domain randomized pipelines for long tail coverage with NVIDIA Omniverse Replicator and procedural scenario generation. |
 | Deep RL for Robotics | Planned | Future | Legged locomotion and manipulation: terrain adaptation, contact rich tasks, sim to real in MuJoCo and Isaac Lab. |
 
