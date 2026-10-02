@@ -1,6 +1,6 @@
-# Product · Spatial Intelligence · Safe Autonomy · AI Assurance
+# Data & AI Platforms · Spatial Intelligence · Safe Autonomy
 
-### Product strategist and builder in B2B deep tech: AI & data platforms for autonomous vehicles, spatial data and analytics, and assurance.
+### Product strategist and builder in B2B deep tech: data & AI platforms for autonomous vehicles, spatial data and analytics, and Physical AI.
 
 Close to a decade in product management. On this GitHub I read where the market and the technology are moving and turn each shift into a working prototype, worked like a product rather than a demo: a problem worth solving, a system that runs, success criteria set before the result, and evals that say whether it works. Everything here is personal work, built fully outside of and unrelated to my employment. I build at the intersection of spatial intelligence, autonomous systems and AI safety, with a focus on **[redacted] ([redacted]) management**: deciding where an automated driving function is cleared to operate and where it must hand back, by road, region and condition, so that agents perceive, reason, and act only where they are cleared to.
 
@@ -12,7 +12,7 @@ My background in Physical AI goes back to 2016, when I worked with the **iCub hu
 
 ## Focus Areas
 
-### Safe Autonomy: Assurance, Evals and [redacted]
+### Safe Autonomy: Evals and [redacted]
 [redacted] management as a clearance question: where an automated driving function may operate, where it must hand back, and how that boundary is maintained in the map rather than discovered in test. Alongside it, safety evaluation for autonomous driving with adversarial scenarios and safety critical metrics on a vendor neutral scorecard, applying **UL 4600** and **SOTIF** (ISO 21448). Real time safety monitoring for robotaxi fleets with teleoperation trigger detection, built in the shape of Waymax and the Waymo Open Motion Dataset and running on synthetic scenes today. Above the benchmarks sits the decision layer, where thresholds exist before the data and every claim carries its evidence. Live: [Assurance Gate](https://huggingface.co/spaces/N20X/assurance-gate).
 
 ### Data Engines: Auto-Labeling Economics and Sensor-Fusion Quality
@@ -63,7 +63,7 @@ I run an AI augmented **PM Operating System** across two environments:
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Evals & Assurance** | pydantic, numpy, scipy, YAML gate files, Jinja2 report generation, Inspect (LLM safety evals), Clopper Pearson bounds, scene clustered bootstraps, UL 4600, SOTIF (ISO 21448) |
+| **Evals & Release Gates** | pydantic, numpy, scipy, YAML gate files, Jinja2 report generation, Inspect (LLM safety evals), Clopper Pearson bounds, scene clustered bootstraps, UL 4600, SOTIF (ISO 21448) |
 | **Autonomy & Simulation** | Waymax (JAX), Waymo Open Motion Dataset, PettingZoo, Gymnasium, pygame |
 | **Perception & Data Engines** | PyTorch, CLIP, Grounding DINO, OWLv2, PandaSet, CVAT, shapely, scikit-image |
 | **SAR / EO** | UP42 Python SDK, Rasterio, GeoPandas, Folium, Sentinel-1 (ESA Copernicus) |
