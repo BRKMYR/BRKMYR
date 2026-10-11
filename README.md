@@ -76,4 +76,4 @@ I run an AI augmented **PM Operating System** across two environments:
 
 ## What I Believe
 
-AI is moving into the physical world. Models will commoditize; the platforms that make them safe to deploy will not. That is where to build and where to bet.
+AI is moving into the physical world. Platforms take it there: the data machines learn from, the evals that check them, the release that puts them to work. That is what I build.
