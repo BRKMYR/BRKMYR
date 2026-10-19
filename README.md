@@ -1,4 +1,4 @@
-# Data & AI Platforms · Spatial Intelligence · Safe Autonomy
+# Data & AI Platforms · Spatial Intelligence · Physical AI
 
 ### Product strategist and builder in B2B deep tech: data & AI platforms for autonomous vehicles, intelligent machines and systems.
 
